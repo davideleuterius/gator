@@ -1,0 +1,77 @@
+.ff-mont {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.ff-neue {
+  font-family: 'Bebas Neue', cursive;
+}
+
+.site-wrap {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+body {
+  margin: 0; padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+a {
+  transition: all 0.3s ease;
+}
+
+header.site-header {
+  background: 
+    linear-gradient(180deg, rgba(255,255,255,0) 20%, rgba(0,131,8,0) 20%, rgba(0,131,8,0.7) 100%), 
+    url(../img/bg-lawn.jpg) center bottom;
+  background-size: cover;
+}
+
+header.site-header {
+  color: white;
+}
+
+header.site-header h1 {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 1px black; 
+  color: white;
+}
+
+header p {
+  text-shadow: 1px 1px 2px black; 
+}
+
+.top-bar {
+  background-color: #454545;
+  color: #fff;
+  border-bottom: 2px solid #000;
+}
+
+.services-grid li img {
+  border-top: 40px solid blue;
+  
+}
+
+.services-grid li:first-child img {
+  border-top: 40px solid green;
+}
+
+.services-grid li:last-child img {
+  border-top: 40px solid red;
+}
+
+.color-white {
+  color: #fff;
+}
