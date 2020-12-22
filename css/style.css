@@ -29,9 +29,10 @@ a {
 
 header.site-header {
   background: 
-    linear-gradient(180deg, rgba(255,255,255,0) 20%, rgba(0,131,8,0) 20%, rgba(0,131,8,0.7) 100%), 
+    linear-gradient(180deg, rgba(255,255,255,0) 20%, rgba(0,131,8,0) 20%, rgba(0,131,8,0.7) 70%), 
     url(../img/bg-lawn.jpg) center bottom;
   background-size: cover;
+  border-bottom: 40px solid green;
 }
 
 header.site-header {
@@ -54,15 +55,35 @@ header p {
 }
 
 .top-bar {
-  background-color: #454545;
+  background-color: #333;
   color: #fff;
   border-bottom: 2px solid #000;
 }
 
+.top-bar nav a {
+  color: white;
+}
+
+.services-grid li {
+  overflow: hidden;
+}
+
 .services-grid li img {
   border-top: 40px solid blue;
-  
+  object-fit: cover;
+  height: 275px;
+  transition: all 0.25s ease;
 }
+
+.services-grid li:hover img {
+  transform: scale(1.05);
+  opacity: 0.8;
+} 
+
+.services-grid a:hover {
+  color: green;
+  text-decoration: none;
+} 
 
 .services-grid li:first-child img {
   border-top: 40px solid green;
@@ -74,4 +95,8 @@ header p {
 
 .color-white {
   color: #fff;
+}
+
+.color-green {
+  color: green;
 }
