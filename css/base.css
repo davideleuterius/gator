@@ -442,7 +442,7 @@ template {
 .ltr-spc { letter-spacing:0.05rem }
 /* LISTS */
 ul { list-style: square }
-.list-flush { padding-left:1rem; list-style: square; }
+.list-flush { padding-left: 1.6rem; list-style: square; }
 ul .list-flush { padding-left: 1.4rem; list-style: disc; }
 .list-flat,
 .list-flat ul { margin-left: 0; padding-left:0; list-style: none; }
@@ -553,6 +553,8 @@ ul .list-flush { padding-left: 1.4rem; list-style: disc; }
 .spc-x-2 { margin-left: 2rem; margin-right: 2rem; }
 .spc-x-3 { margin-left: 3rem; margin-right: 3rem; }
 .spc-x-4 { margin-left: 4rem; margin-right: 4rem; }
+
+.sm\:show { display: none; }
 
 @media(max-width:767px) {
   .sm\:flex { display:-webkit-box; display:-webkit-flex; display:-ms-flexbox; display:flex }
@@ -777,6 +779,9 @@ ul .list-flush { padding-left: 1.4rem; list-style: disc; }
   .sm\:spc-x-2 { margin-left: 2rem; margin-right: 2rem; }
   .sm\:spc-x-3 { margin-left: 3rem; margin-right: 3rem; }
   .sm\:spc-x-4 { margin-left: 4rem; margin-right: 4rem; }
+
+  .sm\:hide { display: none; }
+  .sm\:show { display: block; }
 }
 @media(max-width:535px) {
   .xs\:flex { display:-webkit-box; display:-webkit-flex; display:-ms-flexbox; display:flex }

@@ -50,6 +50,14 @@ header.site-header h1 {
   color: white;
 }
 
+header.site-header a {
+  color: #fff;
+}
+
+header.site-header a:hover {
+  text-decoration: none;
+}
+
 header p {
   text-shadow: 1px 1px 2px black; 
 }
