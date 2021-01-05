@@ -150,6 +150,7 @@ header p {
 
   .top-bar {
     position: absolute;
+    width: 100vw;
     top: -234px;
     transition: all 0.5s ease;
   }
