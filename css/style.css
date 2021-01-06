@@ -212,3 +212,64 @@ header p {
 .color-green {
   color: green;
 }
+
+
+.gallery .current-image img, 
+.image-list img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: all .3s ease;
+}
+
+.gallery .current-image {
+  display: block;
+  height: 700px;
+}
+
+.gallery .current-image img {
+  height: 700px;
+}
+
+.gallery .current-image img.active {
+  display: block;
+  margin: 0 0 0.75rem 0;
+}
+  
+.image-list {
+  display: flex;
+  
+  overflow: hidden;
+  list-style: none;
+  padding-left: 0;
+}
+
+.image-list li {
+  padding: .5rem;
+}
+
+.image-list li img {
+  height: 12rem;
+  width: 100%;
+  transition: opacity 0.3s ease;
+  cursor: pointer;
+}
+
+.image-list li img:hover {
+  opacity: 0.7;
+}
+
+@media (max-width:480px) {
+  .gallery .current-image {
+    display: none;
+  }
+  .image-list li img {
+    height: auto;
+  }
+
+  .image-list li img {
+    margin-bottom: 2rem;
+  }
+
+}

@@ -10,3 +10,13 @@ el.forEach((item) => {
     iconEl.setAttribute('aria-expanded', iconEl.classList.contains('opened'));
   });
 });
+
+
+const activeImage = document.querySelector(".current-image .active");
+const allImages = document.querySelectorAll(".image-list img");
+
+function changeImage(e) {
+  activeImage.src = e.target.src;
+}
+
+allImages.forEach(image => image.addEventListener("click", changeImage));
