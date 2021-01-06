@@ -264,6 +264,7 @@ header p {
   .gallery .current-image {
     display: none;
   }
+
   .image-list li img {
     height: auto;
   }
@@ -271,5 +272,4 @@ header p {
   .image-list li img {
     margin-bottom: 2rem;
   }
-
 }
