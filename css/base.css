@@ -556,6 +556,11 @@ ul .list-flush { padding-left: 1.4rem; list-style: disc; }
 
 .sm\:show { display: none; }
 
+@media(width:768px) {
+  .tablet\:hide { display: none; }
+  .tablet\:w-100 { width: 100%; }
+}
+
 @media(max-width:767px) {
   .sm\:flex { display:-webkit-box; display:-webkit-flex; display:-ms-flexbox; display:flex }
   .sm\:flex-wrap { -webkit-flex-wrap:wrap; -ms-flex-wrap:wrap; flex-wrap:wrap }
